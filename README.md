@@ -144,6 +144,12 @@ lt --port 3000
 
 * To go out of screen, Press `CTRL + B` and than press `D`
 
+** Enter the **screen** again
+
+```
+tmux attach
+```
+
 ### Check **Wins** and **Rewards** on Gensyn Dashboard
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
