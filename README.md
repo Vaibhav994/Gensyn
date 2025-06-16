@@ -109,7 +109,7 @@ source .venv/bin/activate
 * It will download dependencies and ask to login, wait for output like waiting for userjson something
 * In Mobxterm left side, click on the star icon and you will see you IP address, double click on it and it will create new tab -> input password and run below code to get gensyn login page
 
-👇 Get link to login gensyn account via gmail
+👇 **Get link to login gensyn account via gmail**
 
 ```
 npm install -g localtunnel
