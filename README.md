@@ -155,7 +155,7 @@ tmux attach
 
 ![image](https://github.com/user-attachments/assets/d3b5dbf4-cf97-4c78-9400-c0b381b30bae)
 
-* You can run **Gensyn** Node run using this swarm.pem file by copying this file into rl-swarm folder after gensyn github clone is completed. (When you are running model from scratch, rl-swarm won't have any swarm.pem file, it is created once you login through gmail on website.)
+* You can run **Gensyn** Node run using this swarm.pem file by copying this file into rl-swarm folder after gensyn github repository clone is completed, just before 6️⃣th step. (When you are running model from scratch, rl-swarm won't have any swarm.pem file, it is created once you login through gmail on website.)
 * If you need to run the same ORG_ID Gensyn node, need to save the swarm.pem file somehwere safe. 
   
 ### Check **Wins** and **Rewards** on Gensyn Dashboard
