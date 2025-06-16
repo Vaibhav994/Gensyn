@@ -1,10 +1,10 @@
 # Gensyn Node
 
 
-### Download Mobxterm to connect with VPS and run node
+### Download Mobaxterm to connect with VPS and run node
 
-* Open - [Download_Mobxterm](https://mobaxterm.mobatek.net/download.html)
-* Download free portable edition of Mobxterm and extract and install it.
+* Open - [Download_Mobaxterm](https://mobaxterm.mobatek.net/download.html)
+* Download free portable edition of Mobaxterm and extract and install it.
 * Until it downloads, make a ssh key file using your local ubuntu
 
 ### **SSH Key File**
@@ -22,7 +22,7 @@ ssh-keygen -t rsa -f ~/.ssh/username -C root
 * go to this path by opening folders `Ubuntu -> home -> your ubuntu folder (username that you created with) -> .ssh -> file named by your username that you changed above while creating ssh key, copy that file onto desktop (not the pub file)`
 
 ### **Connect to VPS**
-* Open Mobxterm -> session from menu -> SSH -> Input you VPS IP address
+* Open Mobaxterm -> session from menu -> SSH -> Input you VPS IP address
 ![image](https://github.com/user-attachments/assets/7a8b4df3-7c66-458e-badf-22443cdc2dcc)
 
 * Tick the specify username box and write `root`
@@ -107,7 +107,7 @@ source .venv/bin/activate
 ```
 
 * Download the deepseek attached file from telegram
-* In Mobxterm left side panel -> you will see file structure -> go to rl-swarm -> hivemind_exp -> configs -> mac -> right click on the present file and delete it -> click on green upload icon (third icon from left just above) -> select the file you download and upload that, or drag and drop from desktop
+* In Mobaxterm left side panel -> you will see file structure -> go to rl-swarm -> hivemind_exp -> configs -> mac -> right click on the present file and delete it -> click on green upload icon (third icon from left just above) -> select the file you download and upload that, or drag and drop from desktop
   ![image](https://github.com/user-attachments/assets/a2970019-4404-45f5-be0b-989d1946444e)
 
 * run the below codes
@@ -123,7 +123,7 @@ source .venv/bin/activate
 * Choose math a by pressing `a`
 * Choose 1.5 by sending `1.5` 
 * It will download dependencies and ask to login, wait for output like waiting for userjson something
-* In Mobxterm left side, click on the star icon and you will see you IP address, double click on it and it will create new tab -> input password and run below code to get gensyn login page
+* In Mobaxterm left side, click on the star icon and you will see you IP address, double click on it and it will create new tab -> input password and run below code to get gensyn login page
 
 👇 **Get link to login gensyn account via gmail**
 
@@ -150,6 +150,11 @@ lt --port 3000
 tmux attach
 ```
 
+### Save swarm.pem file
+* In Mobaxterm -> left side panel, folder structure -> go to rl-swarm folder -> Right click on swarm.pem file and download -> save it somewhere safe
+![image](https://github.com/user-attachments/assets/d3b5dbf4-cf97-4c78-9400-c0b381b30bae)
+
+  
 ### Check **Wins** and **Rewards** on Gensyn Dashboard
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
