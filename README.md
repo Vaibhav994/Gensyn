@@ -1,4 +1,5 @@
 # Gensyn Node
+![image](https://github.com/user-attachments/assets/df22f5d7-7211-4bad-ac74-8b3957430cce)
 
 
 ### Download Mobaxterm to connect with VPS and run node
