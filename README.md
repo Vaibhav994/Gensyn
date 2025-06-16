@@ -142,6 +142,8 @@ lt --port 3000
 
 ![image](https://github.com/user-attachments/assets/d50be148-dc05-435a-ae97-53b8e7daccd3)
 
+* To go out of screen, Press `CTRL + B` and than press `B`
+
 ### Check **Wins** and **Rewards** on Gensyn Dashboard
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
