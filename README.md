@@ -5,7 +5,7 @@
 ## Download Mobaxterm to connect with VPS and run node
 ### 1️⃣ Download MobaXterm Application
 * Open - [Download_Mobaxterm](https://mobaxterm.mobatek.net/download.html)
-* Download free portable edition of Mobaxterm and extract and install it.
+* Download free portable edition of Mobaxterm and extract and install it
 * Until it downloads, make a ssh key file using your local ubuntu
 
 ### 2️⃣ **SSH Key File**
@@ -142,7 +142,7 @@ lt --port 3000
 * Select the link with mouse and it will ciopy by itself, paste and login via gmail account
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
-* after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work.
+* after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work
 
 ![image](https://github.com/user-attachments/assets/d50be148-dc05-435a-ae97-53b8e7daccd3)
 
@@ -161,8 +161,8 @@ tmux attach
 
 ![image](https://github.com/user-attachments/assets/d3b5dbf4-cf97-4c78-9400-c0b381b30bae)
 
-* You can run **Gensyn** Node run using this swarm.pem file by copying this file into rl-swarm folder after gensyn github repository clone is completed, just before 6️⃣th step. (When you are running model from scratch, rl-swarm won't have any swarm.pem file, it is created once you login through gmail on website.)
-* If you need to run the same ORG_ID Gensyn node, need to save the swarm.pem file somehwere safe. 
+* You can run **Gensyn** Node run using this swarm.pem file by copying this file into rl-swarm folder after gensyn github repository clone is completed, just before 6️⃣th step (When you are running model from scratch, rl-swarm won't have any swarm.pem file, it is created once you login through gmail on website)
+* If you need to run the same ORG_ID Gensyn node, need to save the swarm.pem file somehwere safe
 ---
 
 ## Check **Wins** and **Rewards** on Gensyn Dashboard
