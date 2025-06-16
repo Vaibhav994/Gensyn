@@ -23,8 +23,13 @@ ssh-keygen -t rsa -f ~/.ssh/username -C root
 
 ### **Connect to VPS**
 * Open Mobxterm -> session from menu -> SSH -> Input you VPS IP address
-* Tick the specify username box and write root
+![image](https://github.com/user-attachments/assets/7a8b4df3-7c66-458e-badf-22443cdc2dcc)
+
+* Tick the specify username box and write `root`
 * Advanced SSH settings below -> tick use private key -> click on notebook icon in front of it and select the file you saved on desktop -> press OK
+![image](https://github.com/user-attachments/assets/c5601b96-9389-4e91-b33a-be06f516cce9)
+
+  
 * enter your password or press enter if you left it empty
 * VPS is connected. continue with below codes
 
@@ -103,6 +108,8 @@ source .venv/bin/activate
 
 * Download the deepseek attached file from telegram
 * In Mobxterm left side panel -> you will see file structure -> go to rl-swarm -> hivemind_exp -> configs -> mac -> right click on the present file and delete it -> click on green upload icon (third icon from left just above) -> select the file you download and upload that, or drag and drop from desktop
+  ![image](https://github.com/user-attachments/assets/a2970019-4404-45f5-be0b-989d1946444e)
+
 * run the below codes
 
 
@@ -132,5 +139,14 @@ lt --port 3000
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
 * after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work.
+
+![image](https://github.com/user-attachments/assets/d50be148-dc05-435a-ae97-53b8e7daccd3)
+
+### Check **Wins** and **Rewards** on Gensyn Dashboard
+
+* Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
+* Login -> gmail account and will see **Wins** and **Reward** in some hours
+
+![image](https://github.com/user-attachments/assets/fd67127c-aa4b-42f7-bdd7-54e5e902b5bd)
 
  **Done ✅**
