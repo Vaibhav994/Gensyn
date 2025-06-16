@@ -168,7 +168,7 @@ tmux attach
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
 * Login -> gmail account and will see **Wins** and **Reward** in some hours
-* You can see the Node name, node ID and wallet address for your node on dashboard. You can find these in logs as well
+* You can see the Node name and wallet address for your node on dashboard. You can find these in logs as well
 
 ![image](https://github.com/user-attachments/assets/fd67127c-aa4b-42f7-bdd7-54e5e902b5bd)
 
