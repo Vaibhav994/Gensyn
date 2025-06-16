@@ -1,22 +1,27 @@
-# Gensyn
+# Gensyn Node
 
 
 ### Download Mobxterm to connect with VPS and run node
 
 * Open - [Download_Mobxterm](https://mobaxterm.mobatek.net/download.html)
 * Download free portable edition of Mobxterm and extract and install it.
-* until it downloads, make a ssh key file using your local ubuntu
+* Until it downloads, make a ssh key file using your local ubuntu
 
-* making SSH key file - open ubuntu and run this code
+### **SSH Key File**
+
+* Open ubuntu and run this code
+  
 ```
 ssh-keygen -t rsa -f ~/.ssh/username -C root
 ```
 * Change `username` after slash with your username that you want
+
 * it will ask for password two times, can put any or just press `enter`
 * it will give output like RSA something
-* Open you file explorer and at bottom left you will see Linux -> ubantu
+* Open you file explorer and at bottom left you will see Linux -> ubuntu
 * go to this path by opening folders `Ubuntu -> home -> your ubuntu folder (username that you created with) -> .ssh -> file named by your username that you changed above while creating ssh key, copy that file onto desktop (not the pub file)`
 
+### **Connect to VPS**
 * Open Mobxterm -> session from menu -> SSH -> Input you VPS IP address
 * Tick the specify username box and write root
 * Advanced SSH settings below -> tick use private key -> click on notebook icon in front of it and select the file you saved on desktop -> press OK
@@ -24,7 +29,8 @@ ssh-keygen -t rsa -f ~/.ssh/username -C root
 * VPS is connected. continue with below codes
 
 ### Run Node
-* Installing dependencies
+
+1️⃣ Installing dependencies 🛠
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
@@ -50,7 +56,9 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 source ~/.bashrc
 ```
 
-* Checking libraries installed properly
+
+2️⃣ Checking libraries
+
 ```
 node -v
 yarn -v
@@ -58,17 +66,23 @@ npm -v
 python3 --version
 ```
 
-* Cloning Gensyn Repository
+
+3️⃣ Cloning Gensyn Repository
+
 ```
 git clone https://github.com/gensyn-ai/rl-swarm/
 ```
 
-* new screen
+
+4️⃣ New screen
+
 ```
 tmux
 ```
 
-* changing directory
+
+5️⃣ Changing directory
+
 ```
 cd rl-swarm
 ```
@@ -82,7 +96,8 @@ source .venv/bin/activate
 * In Mobxterm left side panel -> you will see file structure -> go to rl-swarm -> hivemind_exp -> configs -> mac -> right click on the present file and delete it -> click on green upload icon (third icon from left just above) -> select the file you download and upload that, or drag and drop from desktop
 * run the below codes
 
-* Run gensyn node
+
+6️⃣ Run gensyn node
 
 ```
 ./run_rl_swarm.sh
@@ -90,11 +105,11 @@ source .venv/bin/activate
 
 * Press `Y` when asked to connect with testnet
 * Choose math a by pressing `a`
-* choose 1.5 by sending `1.5` 
+* Choose 1.5 by sending `1.5` 
 * It will download dependencies and ask to login, wait for output like waiting for userjson something
 * In Mobxterm left side, click on the star icon and you will see you IP address, double click on it and it will create new tab -> input password and run below code to get gensyn login page
 
-* Get link to login gensyn account via gmail
+👇 Get link to login gensyn account via gmail
 
 ```
 npm install -g localtunnel
@@ -107,4 +122,6 @@ lt --port 3000
 * Select the link with mouse and it will ciopy by itself, paste and login via gmail account
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
-* after sometime, it will ask for huggingface -> press `n` and done, wait for it to start adn everything will work.
+* after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work.
+
+ **Done ✅**
