@@ -15,7 +15,7 @@ ssh-keygen -t rsa -f ~/.ssh/username -C root
 * it will ask for password two times, can put any or just press `enter`
 * it will give output like RSA something
 * Open you file explorer and at bottom left you will see Linux -> ubantu
-* go to this path by opening folders `Ubantu -> home -> your ubantu folder (username that you created with) -> .ssh -> file named by your username that you changed above while creating ssh key, copy that file onto desktop (not the pub file)`
+* go to this path by opening folders `Ubuntu -> home -> your ubantu folder (username that you created with) -> .ssh -> file named by your username that you changed above while creating ssh key, copy that file onto desktop (not the pub file)`
 
 * Open Mobxterm -> session from menu -> SSH -> Input you VPS IP address
 * Tick the specify username box and write root
