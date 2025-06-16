@@ -1,6 +1,4 @@
 # Gensyn Node
-![image](https://github.com/user-attachments/assets/df22f5d7-7211-4bad-ac74-8b3957430cce)
-
 
 ## Download Mobaxterm to connect with VPS and run node
 ### 1️⃣ Download MobaXterm Application
@@ -143,6 +141,7 @@ lt --port 3000
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
 * after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work
+* After this, you will see node name, node id in square brackets in the logs. can save them as well or you will find that in gensyn dashboard after log in. 
 
 ![image](https://github.com/user-attachments/assets/d50be148-dc05-435a-ae97-53b8e7daccd3)
 
@@ -169,7 +168,7 @@ tmux attach
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
 * Login -> gmail account and will see **Wins** and **Reward** in some hours
-* You can see the Nonde name, node ID and wallet address for your node on dashboard
+* You can see the Node name, node ID and wallet address for your node on dashboard. You can find these in logs as well
 
 ![image](https://github.com/user-attachments/assets/fd67127c-aa4b-42f7-bdd7-54e5e902b5bd)
 
