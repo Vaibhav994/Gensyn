@@ -144,7 +144,7 @@ lt --port 3000
 
 * To go out of screen, Press `CTRL + B` and than press `D`
 
-** Enter the **screen** again
+* Enter the **screen** again
 
 ```
 tmux attach
