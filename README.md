@@ -7,7 +7,7 @@
 * Download free portable edition of Mobxterm and extract and install it.
 * until it downloads, make a ssh key file using your local ubantu
 
-* making SSH key file - open ubantu and run this code
+* making SSH key file - open ubuntu and run this code
 ```
 ssh-keygen -t rsa -f ~/.ssh/username -C root
 ```
