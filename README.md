@@ -31,15 +31,21 @@ ssh-keygen -t rsa -f ~/.ssh/username -C root
 ### Run Node
 
 1️⃣ Installing dependencies 🛠
+
+* General Dependencies
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 ```
 sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
+
+* Install **Python**
 ```
 sudo apt-get install python3 python3-pip python3-venv python3-dev -y
 ```
+
+* Install **Node Js**, **Yarn**, **NPM**
 ```
 sudo apt-get update
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
@@ -49,6 +55,8 @@ sudo npm install -g yarn
 ```
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
+
+* Setting **Path**
 ```
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 ```
@@ -57,7 +65,7 @@ source ~/.bashrc
 ```
 
 
-2️⃣ Checking libraries
+2️⃣ Checking installed **dependencies**
 
 ```
 node -v
@@ -67,14 +75,14 @@ python3 --version
 ```
 
 
-3️⃣ Cloning Gensyn Repository
+3️⃣ Cloning **Gensyn** Repository
 
 ```
 git clone https://github.com/gensyn-ai/rl-swarm/
 ```
 
 
-4️⃣ New screen
+4️⃣ New screen in **VPS**
 
 ```
 tmux
@@ -87,6 +95,7 @@ tmux
 cd rl-swarm
 ```
 
+* Making new **Python Environment**
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -97,7 +106,7 @@ source .venv/bin/activate
 * run the below codes
 
 
-6️⃣ Run gensyn node
+6️⃣ Run **gensyn** node
 
 ```
 ./run_rl_swarm.sh
