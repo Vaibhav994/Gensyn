@@ -108,12 +108,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-* Download the deepseek attached file from telegram
-* In Mobaxterm left side panel -> you will see file structure -> go to rl-swarm -> hivemind_exp -> configs -> mac -> right click on the present file and delete it -> click on green upload icon (third icon from left just above) -> select the file you download and upload that, or drag and drop from desktop
-  ![image](https://github.com/user-attachments/assets/a2970019-4404-45f5-be0b-989d1946444e)
-
-* run the below codes
-
 
 6️⃣ Run the swarm
 
@@ -162,6 +156,41 @@ tmux attach
 
 * You can run **Gensyn** Node run using this swarm.pem file by copying this file into rl-swarm folder after gensyn github repository clone is completed, just before 6️⃣th step (When you are running model from scratch, rl-swarm won't have any swarm.pem file, it is created once you login through gmail on website)
 * If you need to run the same ORG_ID Gensyn node, need to save the swarm.pem file somehwere safe
+---
+
+## 📈 Update To new release of **Gensyn** Node
+
+* Go to gensyn screen (Vps)
+
+```
+tmux attach
+```
+
+* Stop Node run by pressing `CTRL + C` button gensyn screen
+
+* Move to rl-swarm directory
+
+```
+cd rl-swarm
+```
+
+* Pull the latest release from Gensyn Repository
+
+```
+git switch main
+git reset --hard
+git clean -fd
+git pull origin main
+```
+
+* Start the swarm Node 🚀
+
+```
+./run_rl_swarm.sh
+```
+* Now follow the steps from 6th Point from above to login and start the swarm node.
+* To go out of screen, Press `CTRL + B` and than press `D`
+
 ---
 
 ## Check **Wins** and **Rewards** on Gensyn Dashboard
