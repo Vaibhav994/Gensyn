@@ -115,9 +115,6 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
-* Press `Y` when asked to connect with testnet
-* Choose math a by pressing `a`
-* Choose 1.5 by sending `1.5` 
 * It will download dependencies and ask to login, wait for output like waiting for userjson something
 * In Mobaxterm left side, click on the star icon and you will see you IP address, double click on it and it will create new tab -> input password and run below code to get gensyn login page
 
@@ -134,7 +131,10 @@ lt --port 3000
 * Select the link with mouse and it will ciopy by itself, paste and login via gmail account
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
-* after sometime, it will ask for huggingface -> press `n` and done, wait for it to start and everything will work
+  
+* Now It will promt Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] Enter N
+* Now It will promt >> Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. press Enter & get defalut model:
+
 * After this, you will see node name, node id in square brackets in the logs. can save them as well or you will find that in gensyn dashboard after log in. 
 
 ![image](https://github.com/user-attachments/assets/d50be148-dc05-435a-ae97-53b8e7daccd3)
