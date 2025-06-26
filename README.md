@@ -166,7 +166,7 @@ tmux attach
 tmux attach
 ```
 
-* Stop Node run by pressing `CTRL + C` button gensyn screen
+* Stop Node run by pressing `CTRL + C` button on gensyn screen
 
 * Move to rl-swarm directory
 
@@ -188,7 +188,8 @@ git pull origin main
 ```
 ./run_rl_swarm.sh
 ```
-* Now follow the steps from 6th Point from above to login and start the swarm node.
+
+* Now follow the steps from 6️⃣th Point from above to login and start the swarm node.
 * To go out of screen, Press `CTRL + B` and than press `D`
 
 ---
