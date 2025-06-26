@@ -132,8 +132,8 @@ lt --port 3000
 * after verifying code, go to the previous tab where code was running
 * Save your ORG ID, which will show on screen for somewhat around 30 seconds
   
-* Now It will promt Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] Enter N
-* Now It will promt >> Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. press Enter & get defalut model:
+* Now It will promt Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] Enter `N`
+* Now It will promt >> Enter the name of the model you want to use in huggingface repo/name format, or press `[Enter]` to use the default model. press `Enter` & get defalut model:
 
 * After this, you will see node name, node id in square brackets in the logs. can save them as well or you will find that in gensyn dashboard after log in. 
 
