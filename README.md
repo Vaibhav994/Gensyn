@@ -195,7 +195,7 @@ git pull origin main
 
 ---
 
-## 📈 Restart **Gensyn** Node
+## ↻  Restart **Gensyn** Node
 
 * Go to gensyn screen (Vps)
 
