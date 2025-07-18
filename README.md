@@ -195,6 +195,40 @@ git pull origin main
 
 ---
 
+## 📈 Restart **Gensyn** Node
+
+* Go to gensyn screen (Vps)
+
+```
+tmux attach
+```
+
+* Stop Node run by pressing `CTRL + C` button on gensyn screen
+
+* Move to rl-swarm directory
+
+```
+cd rl-swarm
+```
+
+* Making new **Python Environment**
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+
+* Run the swarm
+
+```
+./run_rl_swarm.sh
+```
+
+* Now follow the steps from 6️⃣th Point from above to login and start the swarm node.
+* To go out of screen, Press `CTRL + B` and than press `D`
+
+---
+
 ## Check **Wins** and **Rewards** on Gensyn Dashboard
 
 * Open - [Gensyn Dashboard](https://dashboard.gensyn.ai/)
