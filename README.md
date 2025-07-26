@@ -239,7 +239,7 @@ source .venv/bin/activate
 
 ---
 
-# Gswarm Role/Telegram Bot
+# 👇 Gswarm Role
 Instructions to setup a swarm node monitoring telegram bot and earn **The Swarm** Discord role
 * Gswarm Official Docs: [Link ](https://gswarm.dev/docs)
 
@@ -256,7 +256,6 @@ go version
 ```
 go install github.com/Deep-Commit/gswarm/cmd/gswarm@latest
 ```
-After this, you can run `gswarm` from anywhere (if your Go bin directory is in your PATH).
 
 ### Verify Installation
 ```
@@ -318,6 +317,11 @@ https://api.telegram.org/bot1234567890:ABCdefGHIjklMNOpqrsTUVwxyz/getUpdates
 
 
 ## 3️⃣  Run Gswarm Bot
+
+```
+gswarm
+```
+
 Run `gswarm` in your terminal now and follow the prompts to enter your bot token, chat ID, and EOA address
 * You'll find **EOA address**  by logging in the [Gensyn Dashboard](https://dashboard.gensyn.ai/)
 
