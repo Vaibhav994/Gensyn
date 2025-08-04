@@ -244,6 +244,7 @@ source .venv/bin/activate
 
 <img width="1260" height="178" alt="image" src="https://github.com/user-attachments/assets/68764d62-ef6a-4ca1-b641-c9abb9256cf3" />
 
+
 ```
 pip install --force-reinstall transformers==4.51.3 trl==0.19.1
 pip freeze
